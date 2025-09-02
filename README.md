@@ -16,11 +16,7 @@ Included projects-
 
 -Accepts user input to build a tuple of tuples 
 -Performs element wise summation of three fixed size tuples
-  
-How to Run
-Each file is independent:
-```bash
-python 1a_list_pairs.py
+
 
 
 PhotosyntheSound
@@ -41,3 +37,10 @@ This app was showcased at the Akhil Bharat Shiksha Samagam Exhibition, where vis
 Live interaction with plants through sound.
 An immersive demo of nature-driven relaxation technology.
 Conversations on the future of biofeedback-based wellness tools.
+
+  
+How to Run
+Each file is independent:
+```bash
+pip install streamlit pygame pydub
+streamlit run app.py
